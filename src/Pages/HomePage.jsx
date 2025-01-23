@@ -10,8 +10,10 @@ const HomePage = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-    >
-      <NavBar />
+    ><div className="pt-6 relative z-50">
+        <NavBar />
+    </div>
+      
       <div className="absolute top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2 text-center flex flex-col gap-6">
         <h1 className="text-6xl font-bold text-white bg-clip-text text-transparent bg-gradient-to-b from-[#FFFFFF] to-[#E1BBFB]">
           Where Creativity
