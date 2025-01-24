@@ -1,8 +1,9 @@
 import NavBar from "../Components/Navbar.jsx";
 import hero from "../assets/hero.jpg";
-
+import Services2 from "../Components/Services2.jsx";
 const HomePage = () => {
   return (
+    <>
     <div
       className="w-full h-screen "
       style={{
@@ -29,7 +30,12 @@ const HomePage = () => {
             <button className="w-[150px] md:w-[200px] py-3 bg-black text-white rounded-xl cursor-pointer">Get A Quote</button>
         </div>
       </div>
+    
     </div>
+    <div>
+    <Services2/>
+    </div>
+    </>
   );
 };
 
