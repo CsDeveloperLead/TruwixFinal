@@ -1,8 +1,9 @@
 import NavBar from "../Components/Navbar.jsx";
 import hero from "../assets/hero.jpg";
-
+import Services2 from "../Components/Services2.jsx";
 const HomePage = () => {
   return (
+    <>
     <div
       className="w-full h-screen "
       style={{
@@ -15,7 +16,7 @@ const HomePage = () => {
     </div>
       
       <div className="absolute top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2 text-center flex flex-col gap-6">
-        <h1 className="text-6xl font-bold text-white bg-clip-text text-transparent bg-gradient-to-b from-[#FFFFFF] to-[#E1BBFB]">
+        <h1 className="text-6xl font-bold  bg-clip-text text-transparent bg-gradient-to-b from-[#FFFFFF] to-[#E1BBFB]">
           Where Creativity
           <br />
           Meets Purpose
@@ -29,7 +30,12 @@ const HomePage = () => {
             <button className="w-[200px] py-3 bg-black text-white rounded-xl cursor-pointer">Get A Quote</button>
         </div>
       </div>
+    
     </div>
+    <div>
+    <Services2/>
+    </div>
+    </>
   );
 };
 
