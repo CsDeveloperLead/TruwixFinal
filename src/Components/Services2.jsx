@@ -1,10 +1,10 @@
 import React from 'react';
 import { MdOutlineSettings } from "react-icons/md";
 import icon1 from "../assets/icon1.png";
-import icon2 from "../assets/icon2.png";
-import icon3 from "../assets/icon3.png";
-import icon4 from "../assets/icon4.png";
-import icon5 from "../assets/icon5.png";
+import icon2 from "../assets/Icon2.png";
+import icon3 from "../assets/Icon3.png";
+import icon4 from "../assets/Icon4.png";
+import icon5 from "../assets/Icon5.png";
 const Services2 = () => {
   const products = [
     {
