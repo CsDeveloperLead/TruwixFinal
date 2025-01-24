@@ -15,9 +15,9 @@ const Contact = () => {
       <div className="w-full pt-6 relative z-50">
         <NavBar />
       </div>
-      <div className="w-full flex flex-col md:flex-row justify-center items-center pt-10 pb-20 gap-10  bg-[#0e0811] ">
+      <div className="w-full flex flex-col md:flex-row justify-center items-center pt-4 md:pt-10 pb-10 md:pb-20 gap-10  bg-[#0e0811] ">
         {/* Contact Information Section (Mobile View) */}
-        <div className="bg-[#0e0811] w-[90%]  rounded-xl flex md:hidden shadow-2xl text-[#E1BBFB] flex-col gap-4 justify-center px-8 h-[250px] relative z-20">
+        <div className="bg-[#0e0811] w-[90%]  rounded-xl flex md:hidden shadow-2xl text-white flex-col gap-4 justify-center px-8 h-[250px] relative z-20">
           <h2 className="text-2xl font-semibold">Contact Us</h2>
           <p className="flex items-center text-sm">
             <span className="mr-2">
@@ -55,7 +55,7 @@ const Contact = () => {
         >
           {/* Contact Information Section (Desktop View) */}
           <div
-            className="bg-[#0e0811] hidden md:flex shadow-2xl text-[#E1BBFB] flex-col gap-8 justify-center px-8 h-[500px] absolute left-[-120px]"
+            className="bg-[#0e0811] hidden md:flex shadow-2xl text-white flex-col gap-8 justify-center px-8 h-[500px] absolute left-[-120px]"
             style={{
               boxShadow: "0 4px 20px rgba(181, 122, 221, 0.7)", // Purple shadow
               borderRadius: "20px",
